@@ -1,2 +1,64 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	block-size:border-box;
+}
+nav{
+	display:flex;
+	
+	align-items:center;
+	background-color:aliceblue;
+	padding:10px;
+	box-shadow:0 5px 2px aliceblue;
+	
+}
+
+h2{
+	font-size:22px;
+	font-weight:bold;
+}
+ul{
+	display:flex;
+	justify-content:space-between;
+}
+li{
+	display:flex;
+	padding-left:35px;
+	
+	
+}
+li a{
+	text-decoration:none;
+	color:black;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+#home:hover{
+	color:rgb(96,98,110);
+	
+}
+#about:hover{
+	color:rgb(96,98,110);
+	
+}
+#contactus:hover{
+	color:rgb(96,98,110);
+	
+}
+
+.img-section{
+	display:flex;
+	justify-content:space-around;
+	padding:20px;
+	background-color: gray;
+	
+}
+
+.img-card img{
+	border-radius:10px;
+	box-shadow:1px 4px 4px 4px aliceblue; 
+}
