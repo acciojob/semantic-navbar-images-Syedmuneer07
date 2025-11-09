@@ -19,6 +19,9 @@ h2{
 	font-size:22px;
 	font-weight:bold;
 }
+h3{
+	text-align:center;
+}
 ul{
 	display:flex;
 	justify-content:space-between;
